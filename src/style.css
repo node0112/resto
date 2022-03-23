@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+body{
+    margin: 0;
+    background-color: black;
+    height: 100vh;
+}
+
+.main{
+    background: url(images/opening.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.header{
+    background-color: rgba(0, 0, 0, .4);
+    height: 10%;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.logo{
+   font-size: 38px;
+   color: antiquewhite;
+   padding: 10px;
+   font-family: "fira sans";
+   font-weight: 800;
+   cursor: pointer;
+   transition: all 0.6s;
+}
+.logo:hover{
+   color: yellow;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    font-size: 25px;
+    font-family: "Lato";
+}
+li{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+li:hover{
+    color: rgb(165, 62, 62);
+}
+.slogan{
+    font-size: 50px;
+    font-family: "hurricane";
+    text-align: center;
+    color: rgb(211, 211, 211);
+    margin: 10px;
+}
+.review-container{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+.text-left{
+    margin-top: 7%;
+    margin-left: 7%;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: "Raleway";
+    color: rgb(207, 232, 253);
+    transition: all 0.8s;
+}
+.bookBtn{
+    transition: all 0.8s;
+    margin-left: 7%;
+    margin-top: 10px;
+    background-color: navy;
+    width: 90px;
+    font-family: "Roboto";
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.top-images{
+    display: flex;
+}
+.left-image,.right-image{
+    width: 100%;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+.bottom-image{
+    width: 100%;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+.image-container{
+    position: relative;
+    text-align: center;
+}
+.img-txt-left,.img-txt-right,.img-txt-btm{
+    transition: all 0.8s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    font-family: 'hurricane';
+}
+.container{
+    display: flex;
+}
+
+.left-vertical{
+    margin-right: 4px;
+    width: 50%;
+}
+.right-container{
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.hidden{
+    display: none;
+}
